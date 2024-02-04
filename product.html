@@ -485,7 +485,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4 style="margin-left: 60%;"><i class="fa fa-phone" ></i> Cell</h4>
+                                <h4 style="margin-left: 60%;"><i class="fa fa-phone zigzag-icon" ></i>&nbsp; Cell</h4>
                                 <ul>
                                     <li style="margin-left: 60%;"><a href="#"><b>Sushil Thakur</b></a></li>                                   
                                 </ul>
@@ -517,7 +517,32 @@
             </div>
             <hr>
             <br><br>
-            <a href="tel://+977-9849789143" style="color: black; margin-left: 37%;"> <i class="fa fa-phone"></i> Call 4 Website : <b>Surendra Pandey</b> +977-9849789143 </a>
+            <a href="tel://+977-9849789143" style="color: black; margin-left: 37%;"> <i class="fa fa-phone zigzag-icon"></i>&nbsp; Call 4 Website : <b>Surendra Pandey</b> +977-9849789143 </a>
+                            <style>
+                               .zigzag-icon {
+                                 position: relative;
+                                 animation: zigzag 2s linear infinite;
+                                 font-size: 25px;
+                                            }
+
+                              @keyframes zigzag {
+                                  0% {
+                                      transform: rotate(0deg);
+                                  }
+                                  25% {
+                                      transform: rotate(5deg);
+                                  }
+                                  50% {
+                                      transform: rotate(-5deg);
+                                  }
+                                  75% {
+                                      transform: rotate(5deg);
+                                             }
+                                  100% {
+                                      transform: rotate(0deg);
+                                  }
+                              }
+                            </style>
         </div>
         <!-- Footer End-->
     </footer>

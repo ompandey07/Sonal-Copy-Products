@@ -96,7 +96,7 @@
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 d-none d-sm-block">
                                 <div class="hero__img" data-animation="bounceIn" data-delay=".4s">
-                                    <img src="Books/book9.png" alt="" class=" heartbeat">
+                                    <img src="Books/main.png" style="max-width: 500px; margin-bottom: 200px;" alt="" class=" heartbeat">
                                 </div>
                             </div>
                         </div>
@@ -345,7 +345,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4 style="margin-left: 60%;"><i class="fa fa-phone" ></i> Cell</h4>
+                                <h4 style="margin-left: 60%;"><i class="fa fa-phone zigzag-icon" ></i>&nbsp; Cell</h4>
                                 <ul>
                                     <li style="margin-left: 60%;"><a href="#"><b>Sushil Thakur</b></a></li>                                   
                                 </ul>
@@ -357,8 +357,7 @@
                             <div class="footer-tittle">
                                 <h4 style="margin-left: 60%;"><i class="fa fa-american-sign-language-interpreting"></i>  Social</h4>
                                 <ul>
-                                    <a style="color: black ; font-size: 25px; margin-left: 80%;" target="_blank" href="https://www.facebook.com/sonalcopyproducts/photos"><i class="fab fa-facebook-f"></i></a>
-                                    
+                                    <a style="color: black ; font-size: 25px; margin-left: 80%;" target="_blank" href="https://www.facebook.com/sonalcopyproducts/photos"><i class="fab fa-facebook-f"></i></a>                                    
                                 </ul>
                             </div>
                         </div>
@@ -369,7 +368,7 @@
                     <div class="col-xl-7 col-lg-8 col-md-7">
                         <div class="footer-copy-right">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright <b>Sonal Copy Products</b> &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>                  
+                             Copyright <b>Sonal Copy Products</b> &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>                  
                         </div>
                     </div>
                     
@@ -377,20 +376,38 @@
             </div>
             <hr>
             <br><br>
-            <a href="tel://+977-9849789143" style="color: black; margin-left: 37%;"> <i class="fa fa-phone"></i> Call 4 Website : <b>Surendra Pandey</b> +977-9849789143 </a>
+            <a href="tel://+977-9849789143" style="color: black; margin-left: 37%;"> <i class="fa fa-phone zigzag-icon"></i>  &nbsp; Call 4 Website : <b>Surendra Pandey</b> +977-9849789143 </a>
+                            <style>
+                               .zigzag-icon {
+                                 position: relative;
+                                 animation: zigzag 2s linear infinite;
+                                 font-size: 25px;
+                                            }
+
+                              @keyframes zigzag {
+                                  0% {
+                                      transform: rotate(0deg);
+                                  }
+                                  25% {
+                                      transform: rotate(5deg);
+                                  }
+                                  50% {
+                                      transform: rotate(-5deg);
+                                  }
+                                  75% {
+                                      transform: rotate(5deg);
+                                             }
+                                  100% {
+                                      transform: rotate(0deg);
+                                  }
+                              }
+
+                              
+                            </style>
         </div>
         <!-- Footer End-->
     </footer>
-    <!--? Search model Begin -->
-    <div class="search-model-box">
-        <div class="h-100 d-flex align-items-center justify-content-center">
-            <div class="search-close-btn">+</div>
-            <form class="search-model-form">
-                <input type="text" id="search-input" placeholder="Searching key.....">
-            </form>
-        </div>
-    </div>
-    <!-- Search model end -->
+    
 
     <!-- JS here -->
 
